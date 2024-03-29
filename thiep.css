@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:1000px;
+    overflow-x: hidden;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    flex-direction: column;
+    background-color: aliceblue;
+    
+}
+.date_wedding{
+   margin-top: -40px;
+}
+.date_countdown{
+    margin-top: -80px;
+}
+.countdown_wedding{
+    background-color:#90120A;
+    color:#fff;
+    margin-top: 20px;
+    margin-left: -30px;
+    padding:10px 10px 10px 10px;
+    border-radius: 15px;
+}
