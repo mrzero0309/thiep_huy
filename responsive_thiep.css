@@ -1,0 +1,17 @@
+@media only screen and (max-width: 391px){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .comtainer{
+        width:400px;
+    }
+    .date_wedding{
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+    }
+    .container{
+        width:25rem;
+        margin-left: -0.6rem;
+    }
+}

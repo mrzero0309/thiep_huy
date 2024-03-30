@@ -23,3 +23,21 @@ function updateCountdown() {
 
 // Cập nhật đồng hồ đếm ngược mỗi giây
 setInterval(updateCountdown, 1000);
+
+
+
+// Lấy phần tử back_info
+var backInfo = document.querySelector('.back_info');
+
+// Thêm lớp 'show' vào back_info để kích hoạt hiệu ứng
+backInfo.classList.add('show');
+
+// Loại bỏ lớp 'show' khỏi back_info để vô hiệu hóa hiệu ứng
+backInfo.classList.remove('show');
+function activateEffect() {
+    // Lấy phần tử back_info
+    var backInfo = document.querySelector('.back_info');
+
+    // Thêm lớp 'show' vào back_info để kích hoạt hiệu ứng
+    backInfo.classList.add('show');
+}
