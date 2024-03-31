@@ -1,4 +1,4 @@
-@media only screen and (max-width: 391px){
+@media  screen and (min-width: 391px){
     body{
         overflow-x: hidden;
         width:100%;
@@ -9,9 +9,113 @@
     .date_wedding{
         margin-bottom: 3rem;
         margin-left: 1rem;
+        width:24rem;
     }
     .container{
         width:25rem;
         margin-left: -0.6rem;
+    }
+    .date_countdown{
+        margin-top: -80px;
+        margin-left: 2rem;
+    }
+   
+    
+    .text_nha_trai{
+        margin-left: 2rem;
+    }
+}
+@media screen and (min-width: 430px){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .date_wedding{
+        margin-bottom: 4rem;
+        margin-left: 0.2rem;
+        width:28rem;
+        margin-top: 0rem;
+    }
+    .container{
+        width:28rem;
+        margin-left: -0.6rem;
+    }
+    .back_info{
+        width:28rem;
+        height:25rem;
+        position:absolute;
+        margin-top: -2.5rem;
+    }
+    .date_countdown{
+        margin-top: -80px;
+        margin-left: 2rem;
+    }
+    .icon_wedding{
+        margin-left: 9rem;
+    }
+    .boy_home{
+        margin-left: 1rem;
+    }
+    .text_nha_trai{
+        margin-left: 3.5rem;
+    }
+    .girl_home{
+        margin-left: 14rem;
+    }
+    .text_nha_gai{
+        margin-left: 16.5rem;
+    }
+    .container_thanh_hon{
+        height:42rem;
+    }
+}
+
+@media screen and (max-width: 414px){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .date_wedding{
+        margin-bottom: 4rem;
+        width:27.7rem;
+        margin-top: 0rem;
+    }
+    .container{
+        width:28rem;
+        margin-left: -0.6rem;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .back_info{
+        width:28rem;
+        height:28rem;
+        margin-top: -2.5rem;
+        position:absolute;
+    }
+    .date_countdown{
+        margin-top: -80px;
+        margin-left: 2rem;
+    }
+    .icon_wedding{
+        margin-left: 10rem;
+    }
+    .boy_home{
+        margin-left: 1rem;
+    }
+    .su_kien_cuoi{
+        padding-top: 5rem;
+    }
+    .text_nha_trai{
+        margin-left: 3.5rem;
+    }
+    .girl_home{
+        margin-left: 14rem;
+    }
+    .text_nha_gai{
+        margin-left: 16.5rem;
+    }
+    .container_thanh_hon{
+        height:42rem;
     }
 }
